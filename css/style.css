@@ -1,0 +1,185 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #202020;
+    color: #ffffff;
+}
+
+.container {
+    color: #ffffff;
+}
+
+.profile img {
+    max-width: 150px;
+}
+
+.project img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0;
+}
+
+.skill-name {
+    font-weight: bold;
+    flex: 1;
+    padding-right: 5px;
+}
+
+.skill-level {
+    flex-shrink: 0;
+}
+
+.bg-light {
+    background-color: #333 !important;
+    color: #ffffff;
+}
+
+.project-card {
+    background-color: #444;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rounded {
+    border-radius: .3rem !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.theme-toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.btn-custom {
+    background-color: #6c757d;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #5a6268;
+    color: #ffffff;
+}
+
+.btn-primary-custom {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary-custom:hover {
+    background-color: #218838;
+    color: #ffffff;
+}
+
+.btn-secondary-custom {
+    background-color: #6c757d;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary-custom:hover {
+    background-color: #5a6268;
+    color: #ffffff;
+}
+
+.btn-project {
+    background-color: #ffc107;
+    color: #212529;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-project:hover {
+    background-color: #e0a800;
+    color: #212529;
+}
+
+body.light-theme {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+
+body.light-theme .container {
+    color: #000000;
+}
+
+body.light-theme .bg-light {
+    background-color: #e8e8e8 !important;
+    color: #000000;
+}
+
+body.light-theme .project-card {
+    background-color: #e4e4e4;
+    color: #000000;
+}
+
+body.light-theme .skills ul li {
+    background: none;
+    border: none;
+}
+
+body.light-theme .btn-custom {
+    background-color: #d1d1d1;
+    color: #000000;
+}
+
+body.light-theme .btn-custom:hover {
+    background-color: #b0b0b0;
+    color: #000000;
+}
+
+body.light-theme .btn-primary-custom {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+body.light-theme .btn-primary-custom:hover {
+    background-color: #218838;
+}
+
+body.light-theme .btn-secondary-custom {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+body.light-theme .btn-secondary-custom:hover {
+    background-color: #5a6268;
+}
+
+body.light-theme .btn-project {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+body.light-theme .btn-project:hover {
+    background-color: #e0a800;
+}
