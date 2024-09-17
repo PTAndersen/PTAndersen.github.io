@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #202020;
+    background-image: linear-gradient(#202020, #2c0004) ;
+    background-attachment: fixed;
     color: #ffffff;
 }
 
@@ -124,7 +125,7 @@ body {
 }
 
 body.light-theme {
-    background-color: #f8f9fa;
+    background-image: linear-gradient(#28647c, #e2e2e2) ;
     color: #000000;
 }
 
